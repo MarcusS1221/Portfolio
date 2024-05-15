@@ -1,0 +1,69 @@
+.ContactContainer{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.Contact-Left{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+
+.Contact-Left-Title{
+   font-weight: 600;
+   color: white;
+   font-size: 40px;
+   margin-bottom: 5px;
+}
+
+.contact-inputs{
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    color: rgb(3, 121, 119);
+    border-radius: 50px;
+    background-color: aliceblue;
+}
+
+.Contact-Left textarea{
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 20px;
+}
+
+.contact-inputs:focus{
+    border: rgb(11, 71, 63);
+}
+
+.contact-inputs:hover{
+    border: rgb(11, 71, 63);
+}
+
+.contact-inputs::placeholder{
+    color: #004138;
+}
+
+.Contact-Left::placeholder{
+    color: #004138; 
+}
+
+.Contact-Left button{
+    position: relative;
+    top: 20px;
+    height: 50px;
+    width: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bolder; 
+    color: white;
+    background-color: rgb(3, 121, 119);
+    cursor: url(Extras/CursorPoint.png), auto;
+    border-radius: 15px;
+    border: none;
+}
